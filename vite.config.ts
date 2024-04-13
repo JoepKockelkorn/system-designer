@@ -8,6 +8,7 @@ import { join } from "node:path";
 installGlobals();
 
 export default defineConfig({
+  base: "/system-designer/",
   plugins: [
     remix({
       ssr: false,
